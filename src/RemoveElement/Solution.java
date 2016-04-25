@@ -8,19 +8,20 @@ import org.junit.Test;
 public class Solution {
     public int removeElement(int[] nums, int val) {
         int count = 0;
-        int point = 0;
+        int point;
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] == val) {
                 count++;
                 point = i;
-                for (int j=point; j<nums.length; j++) {
+                for (int j=point+1; j<nums.length; j++) {
                     if (nums[j] != val) {
                         break;
                     }
+                    count++;
                     point = j;
                 }
-                if (point+1<nums.length) {
-                    nums[i] = nums[point+1];
+                for (int k=i; (k<=point+1) && ((point+1)<nums.length); k++) {
+                    nums[k] = nums[point+1];
                 }
                 i = point;
             }
@@ -34,6 +35,6 @@ public class Solution {
 
     @Test
     public void test() {
-        System.out.println(removeElement(new int[]{1,2,2,1,3,3,3,4,1}, 1));
+        System.out.println(removeElement(new int[]{1,2,1,1,4,1}, 1));
     }
 }
