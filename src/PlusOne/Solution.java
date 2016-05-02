@@ -3,10 +3,31 @@ package PlusOne;
 import org.junit.Test;
 
 /**
+ * Given a non-negative number represented as an array of digits, plus one to the number.
+ * The digits are stored such that the most significant digit is at the head of the list.
+ *
  * Created by Tianle Zhang on 2016/5/1.
  */
 public class Solution {
+
+
     public int[] plusOne(int[] digits) {
+        int carry = 1;
+        for (int i=digits.length-1; i>=0; i--) {
+            digits[i] +=  carry;
+            if (digits[i] < 10) {
+                return digits;
+            }
+            digits[i] = 0;
+        }
+        int[] ret = new int[digits.length+1];
+        ret[0] = 1;
+        return ret;
+    }
+
+
+    public int[] plusOne2(int[] digits) {
+        // TODO
         StringBuffer stringBuffer = new StringBuffer();
         for (int i : digits) {
             stringBuffer.append(i);
@@ -26,7 +47,7 @@ public class Solution {
 
     @Test
     public void test() {
-        int[] i = new int[]{9,8,7,6,5,4,3,2,1,0};
+        int[] i = new int[]{9,9};
         plusOne(i);
 
     }
