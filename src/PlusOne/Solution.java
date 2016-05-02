@@ -27,7 +27,6 @@ public class Solution {
 
 
     public int[] plusOne2(int[] digits) {
-        // TODO
         StringBuffer stringBuffer = new StringBuffer();
         for (int i : digits) {
             stringBuffer.append(i);
