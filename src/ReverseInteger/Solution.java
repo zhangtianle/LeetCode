@@ -12,22 +12,20 @@ import org.junit.Test;
  */
 public class Solution {
     public int reverse(int x) {
-        if (x<0) {
-            x = x * (-1);
-            String s = x+ "";
-            StringBuffer sb = new StringBuffer(s);
-            int i = Integer.parseInt(sb.reverse().toString());
-            return -i;
+        long result = 0;
+        while ( x!= 0) {
+            result = result * 10 + x % 10;
+            x = x / 10;
         }
-        String s = x+ "";
-        StringBuffer sb = new StringBuffer(s);
-        int i = Integer.parseInt(sb.reverse().toString());
-        return i;
+        if (result > Integer.MAX_VALUE || result < Integer.MIN_VALUE) {
+            return 0;
+        }
+        return (int)result;
     }
 
     @Test
     public void test() {
-        System.out.println(reverse(-1100000011));
+        System.out.println(reverse(1534236469));
         System.out.println(Integer.MAX_VALUE);
     }
 }
