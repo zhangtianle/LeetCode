@@ -41,5 +41,6 @@ public class Solution {
     public void test() {
         System.out.println(integerBreak(19));
         System.out.println(1722712064>2124471432);
+
     }
 }
