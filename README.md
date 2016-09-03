@@ -3,17 +3,17 @@
 代码存放于src目录  
 笔记请见note目录下文档  
 
-- **2016.9.3**
-38.count and say 
+- **2016.9.3**  
+38.count and say  
 - **2016.9.2**  
 34.Search for a Range  
 35.Search Insert Position  
 36.Valid Sudoku  
-- **2016.7.22**
+- **2016.7.22**  
 345.Reverse Vowels of a String  
-- **2016.6.1**
+- **2016.6.1**  
 287.Find the Duplicate Number  
-- **2016.5.25**
+- **2016.5.25**  
 205.Isomorphic Strings  
 203.Remove Linked List Elements  
 24.Swap Nodes in Pairs  
