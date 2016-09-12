@@ -2,7 +2,8 @@
 [![Build Status](https://travis-ci.org/zhangtianle/LeetCode.svg?branch=master)](https://travis-ci.org/zhangtianle/LeetCode)  
 代码存放于src目录  
 笔记请见note目录下文档  
-
+- **2016.9.12**  
+58.Length of Last Word  
 - **2016.9.3**  
 38.count and say  
 - **2016.9.2**  
