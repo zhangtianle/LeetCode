@@ -2,6 +2,10 @@
 [![Build Status](https://travis-ci.org/zhangtianle/LeetCode.svg?branch=master)](https://travis-ci.org/zhangtianle/LeetCode)  
 代码存放于src目录  
 笔记请见note目录下文档  
+- **2016.9.28**  
+78. Subsets  
+- **2016.9.27**  
+62.Unique Paths  
 - **2016.9.12**  
 58.Length of Last Word  
 53.Maximum Subarray  
