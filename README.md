@@ -2,6 +2,8 @@
 [![Build Status](https://travis-ci.org/zhangtianle/LeetCode.svg?branch=master)](https://travis-ci.org/zhangtianle/LeetCode)  
 代码存放于src目录  
 笔记请见note目录下文档  
+- **2016.10.8**  
+217. Contains Duplicate  
 - **2016.10.7**  
 70. Climbing Stairs  
 300. Longest Increasing Subsequence  
