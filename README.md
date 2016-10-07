@@ -2,6 +2,8 @@
 [![Build Status](https://travis-ci.org/zhangtianle/LeetCode.svg?branch=master)](https://travis-ci.org/zhangtianle/LeetCode)  
 代码存放于src目录  
 笔记请见note目录下文档  
+- **2016.10.7**  
+70. Climbing Stairs  
 - **2016.9.28**  
 78. Subsets  
 - **2016.9.27**  
