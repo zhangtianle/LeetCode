@@ -15,27 +15,28 @@ import org.junit.Test;
  * Created by Tianle Zhang on 2016/7/8.
  */
 public class Solution {
-    public int lengthOfLIS(int[] nums) {
-        // TODO
-        int longest = 0;
-        for (int i = 0; i < nums.length - 1; i++) {
-            int start = i;
-            int end = i + 1;
 
-            while (end < nums.length && nums[start] < nums[end]) {
-                start++;
-                end++;
-            }
-            int localLonget = end - start - 1;
-            if (localLonget > longest) {
-                longest = localLonget;
+    public int lengthOfLIS(int[] nums) {
+        if (nums.length == 0)
+            return 0;
+        int[] d = new int[nums.length];
+        int len = 1;
+        for (int i = 0; i < nums.length; i++) {
+            d[i] = 1;
+            for (int j = 0; j < i; j++) {
+                if (nums[j] < nums[i] && d[j] + 1 > d[i])
+                    d[i] = d[j] + 1;
+                if (d[i] > len)
+                    len = d[i];
             }
         }
-        return longest;
+        return len;
     }
+
 
     @Test
     public void test() {
-        System.out.println(lengthOfLIS(new int[]{10, 9, 2, 5, 3, 7, 101, 18}));
+//        System.out.println(lengthOfLIS(new int[]{10, 9, 2, 5, 3, 7, 101, 18}));
+        System.out.println(lengthOfLIS(new int[]{2,2}));
     }
 }

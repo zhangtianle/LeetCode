@@ -4,6 +4,7 @@
 笔记请见note目录下文档  
 - **2016.10.7**  
 70. Climbing Stairs  
+300. Longest Increasing Subsequence  
 - **2016.9.28**  
 78. Subsets  
 - **2016.9.27**  
