@@ -7,6 +7,8 @@
 59.Spiral Matrix II  
 54.Spiral Matrix  
 64.Minimum Path Sum  
+83.Remove Duplicates from Sorted List  
+55.Jump Game  
 - **2016.10.7**  
 70.Climbing Stairs  
 300.Longest Increasing Subsequence  
