@@ -6,6 +6,7 @@
 217.Contains Duplicate  
 59.Spiral Matrix II  
 54.Spiral Matrix  
+64.Minimum Path Sum  
 - **2016.10.7**  
 70.Climbing Stairs  
 300.Longest Increasing Subsequence  
