@@ -9,6 +9,7 @@
 64.Minimum Path Sum  
 83.Remove Duplicates from Sorted List  
 55.Jump Game  
+74.Search a 2D Matrix  
 - **2016.10.7**  
 70.Climbing Stairs  
 300.Longest Increasing Subsequence  
