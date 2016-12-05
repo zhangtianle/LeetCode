@@ -25,13 +25,16 @@ public class FindAllNumbersDisappearedinanArray {
     public List<Integer> findDisappearedNumbers(int[] nums) {
         int nSize = nums.length;
         List<Integer> list = new ArrayList<>();
-        int[] temp = new int[nSize];
 
         for (int i = 0; i < nSize; i++) {
-            temp[nums[i] - 1] = 1;
+            int val = Math.abs(nums[i]) - 1;
+            if (nums[val] > 0) {
+                nums[val] = - nums[val];
+            }
         }
+
         for (int i = 0; i < nSize; i++) {
-            if (temp[i] == 0) {
+            if (nums[i] > 0) {
                 list.add(i+1);
             }
         }
@@ -40,7 +43,7 @@ public class FindAllNumbersDisappearedinanArray {
 
     @Test
     public void test() {
-        List<Integer> disappearedNumbers = findDisappearedNumbers(new int[]{});
+        List<Integer> disappearedNumbers = findDisappearedNumbers(new int[]{4,3,2,7,8,2,3,1});
         System.out.println();
     }
 }
