@@ -2,6 +2,8 @@
 [![Build Status](https://travis-ci.org/zhangtianle/LeetCode.svg?branch=master)](https://travis-ci.org/zhangtianle/LeetCode)  
 代码存放于src目录  
 笔记请见note目录下文档  
+- **2017.10.20**  
+118.Pascal's Triangle  
 - **2017.3.11**  
 Simplify Path  
 Add Binary  
