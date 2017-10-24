@@ -3,6 +3,7 @@
 代码存放于src目录  
 笔记请见note目录下文档  
 - **2017.10.24**  
+141.Linked List Cycle  
 122.Best Time to Buy and Sell Stock II  
 - **2017.10.23**  
 121.Best Time to Buy and Sell Stock
