@@ -4,6 +4,7 @@
 笔记请见note目录下文档  
  
 - **2017.10.26**  
+171.Excel Sheet Column Number  
 168.Excel Sheet Column Title  
 169.Majority Element  
 - **2017.10.25**  
