@@ -4,6 +4,7 @@
 笔记请见note目录下文档  
  
 - **2017.10.26**  
+172.Factorial Trailing Zeroes  
 171.Excel Sheet Column Number  
 168.Excel Sheet Column Title  
 169.Majority Element  
