@@ -4,7 +4,8 @@
 笔记请见note目录下文档  
  
 - **2017.10.26**  
-168.Excel Sheet Column Title
+168.Excel Sheet Column Title  
+169.Majority Element  
 - **2017.10.25**  
 191.Number of 1 Bits  
 - **2017.10.24**  
