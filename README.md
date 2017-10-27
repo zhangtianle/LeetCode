@@ -3,6 +3,8 @@
 代码存放于src目录  
 笔记请见note目录下文档  
  
+- **2017.10.27**  
+263. Ugly Number  
 - **2017.10.26**  
 389.Find the Difference  
 172.Factorial Trailing Zeroes  
