@@ -4,6 +4,7 @@
 笔记请见note目录下文档  
  
 - **2017.10.27**  
+258. Add Digits  
 263. Ugly Number  
 - **2017.10.26**  
 389.Find the Difference  
