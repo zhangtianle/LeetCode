@@ -27,38 +27,35 @@ import java.util.List;
  * Created by Tianle Zhang on 2016/9/3.
  */
 public class Solution {
+
+    List<List<Integer>> combinationSum = new ArrayList<>();
+
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        // TODO
         Arrays.sort(candidates);
-        int size = candidates.length;
+        List<Integer> cur = new ArrayList<>();
+        getCombination(cur, candidates, 0, target);
+        return combinationSum;
+    }
 
-        List<List<Integer>> combinationSum = new ArrayList<>();
-
-
-        for (int i = 0; i < candidates.length ; i++) {
-            int candidate = candidates[i];
-            int localSum = 0;
-            while (localSum < target) {
-                List<Integer> combinas = new ArrayList<>();
-                localSum += candidate;
-                combinas.add(candidate);
-                if (localSum == target) {
-                    combinationSum.add(combinas);
-                } else if (localSum > target) {
-
-                }
+    private void getCombination(List<Integer> c, int[] candidates, int index, int target) {
+        if (target < 0) {
+            return;
+        } else if (target == 0) {
+            List<Integer> cc = new ArrayList<>(c);
+            combinationSum.add(cc);
+            return;
+        } else {
+            for (int i = index; i < candidates.length; i++) {
+                c.add(candidates[i]);
+                getCombination(c, candidates, i, target - candidates[i]);
+                c.remove(c.size() - 1);
             }
-
-            int remain = target - candidate;
         }
-
-        return null;
     }
 
     @Test
     public void test() {
-        int[] i = {1,3,4,2};
-        Arrays.sort(i);
-
+        combinationSum(new int[]{2,3,6,7}, 7);
+        System.out.println();
     }
 }
