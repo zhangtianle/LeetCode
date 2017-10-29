@@ -3,9 +3,11 @@
 代码存放于src目录  
 笔记请见note目录下文档  
  
+- **2017.10.28**  
+33.Search in Rotated Sorted Array  
 - **2017.10.27**  
-258. Add Digits  
-263. Ugly Number  
+258.Add Digits  
+263.Ugly Number  
 - **2017.10.26**  
 389.Find the Difference  
 172.Factorial Trailing Zeroes  
