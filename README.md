@@ -2,11 +2,14 @@
 [![Build Status](https://travis-ci.org/zhangtianle/LeetCode.svg?branch=master)](https://travis-ci.org/zhangtianle/LeetCode)  
 代码存放于src目录  
 笔记请见note目录下文档  
- 
-- **2017.10.28**  
+
+- **2017.10.30**  
+46.Permutations  
+- **2017.10.29**  
 40.Combination Sum II  
 39.Combination Sum  
-112.Path Sum
+112.Path Sum  
+- **2017.10.28**  
 33.Search in Rotated Sorted Array  
 - **2017.10.27**  
 258.Add Digits  
