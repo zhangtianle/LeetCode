@@ -4,6 +4,7 @@
 笔记请见note目录下文档  
 
 - **2017.10.31**  
+69.Sqrt(x)  
 48.Rotate Image  
 - **2017.10.30**  
 46.Permutations  
