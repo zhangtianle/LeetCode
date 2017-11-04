@@ -3,6 +3,8 @@
 代码存放于src目录  
 笔记请见note目录下文档  
 
+- **2017.11.4**  
+153.Find Minimum in Rotated Sorted Array  
 - **2017.11.2**  
 144.Binary Tree Preorder Traversal  
 - **2017.11.1**  
