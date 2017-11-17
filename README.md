@@ -3,6 +3,8 @@
 代码存放于src目录  
 笔记请见note目录下文档  
 
+- **2017.11.17**  
+14.Longest Common Prefix  
 - **2017.11.16**  
 226.Invert Binary Tree  
 223.Rectangle Area  
