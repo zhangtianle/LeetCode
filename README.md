@@ -5,6 +5,17 @@
 
 - **2017.11.26**  
 274.H-Index  
+- **2017.11.25**  
+215.Kth Largest Element in an Array  
+- **2017.11.17**  
+14.Longest Common Prefix  
+- **2017.11.16**  
+226.Invert Binary Tree  
+223.Rectangle Area  
+- **2017.11.13**  
+349.Intersection of Two Arrays  
+- **2017.11.9**  
+209.Minimum Size Subarray Sum   
 - **2017.11.8**  
 240.Search a 2D Matrix II   
 242.Valid Anagram   
