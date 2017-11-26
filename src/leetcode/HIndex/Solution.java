@@ -1,5 +1,7 @@
 package leetcode.HIndex;
 
+import org.junit.Test;
+
 import java.util.Arrays;
 
 /**
@@ -7,14 +9,20 @@ import java.util.Arrays;
  */
 public class Solution {
     public int hIndex(int[] citations) {
-        // TODO
         Arrays.sort(citations);
-        for (int i = 1; i < citations.length; i++) {
-            if (i+1 < citations[i]) {
-                return Integer.min(i-1,citations[i-1]);
+        int j = 0;
+        for (int i = citations.length - 1; i >= 0; i--) {
+            if (citations[i] > j) {
+                j = Math.min(++j, citations[i]);
+            } else {
+                break;
             }
         }
+        return j;
+    }
 
-        return 0;
+    @Test
+    public void test() {
+        System.out.println(hIndex(new int[]{3}));
     }
 }
