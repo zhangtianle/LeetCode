@@ -4,6 +4,7 @@
 笔记请见note目录下文档  
 
 - **2017.11.26**  
+275.H-Index II   
 274.H-Index  
 162.Find Peak Element   
 - **2017.11.25**  
