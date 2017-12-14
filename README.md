@@ -4,8 +4,13 @@
 笔记请见note目录下文档  
 
 - **2017.12.14**  
-232.Implement Queue using Stacks  
+232.Implement Queue using Stacks    
 221.Maximal Square  
+- **2017.11.26**  
+165.Compare Version Numbers  
+275.H-Index II   
+274.H-Index  
+162.Find Peak Element  
 - **2017.11.25**  
 215.Kth Largest Element in an Array  
 - **2017.11.17**  
@@ -17,7 +22,7 @@
 349.Intersection of Two Arrays  
 - **2017.11.9**  
 209.Minimum Size Subarray Sum   
-- **2017.11.8**    
+- **2017.11.8**  
 240.Search a 2D Matrix II   
 242.Valid Anagram   
 - **2017.11.5**    
