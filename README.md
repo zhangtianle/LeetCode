@@ -2,6 +2,7 @@
 [![Build Status](https://travis-ci.org/zhangtianle/LeetCode.svg?branch=master)](https://travis-ci.org/zhangtianle/LeetCode)  
 代码存放于src目录  
 笔记请见note目录下文档  
+README 不更新了，直接提交。。。  
 
 - **2017.12.14**  
 232.Implement Queue using Stacks    
