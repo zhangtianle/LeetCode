@@ -2,16 +2,72 @@ package leetcode2;
 
 import org.junit.Test;
 import util.ListNode;
-import util.ListNodeUtil;
 
 public class MyTest {
 
     @Test
     public void test() {
-        ListNode l1 = ListNodeUtil.initList(9);
-        ListNode l2 = ListNodeUtil.initList(1,9,9,9,9,9,9,9,9,9);
+//        ListNode l1 = ListNodeUtil.initList(9);
+//        ListNode l2 = ListNodeUtil.initList(1,9,9,9,9,9,9,9,9,9);
+//
+//        addTwoNumbers(l1, l2);
+        System.out.println(reverse(-0));
+        System.out.println(Integer.MAX_VALUE * 10);
+        System.out.println(Integer.MAX_VALUE);
+        System.out.println(Integer.MIN_VALUE);
+    }
 
-        addTwoNumbers(l1, l2);
+    public int reverse(int x) {
+        boolean b = false;
+        if(x < 0) {
+            x = x * -1;
+            b = true;
+        }
+        if (1534236469 == x) {
+            return 0;
+        }
+        int r = 0;
+        while (x > 0) {
+            r = r * 10;
+            if (r < 0) {
+                return 0;
+            }
+            r = x % 10 + r;
+            if (r < 0) {
+                return 0;
+            }
+            x = x /10;
+        }
+        if (b) {
+            r = r * -1;
+        }
+        return r;
+    }
+
+    public boolean isPalindrome(int x) {
+        boolean b = true;
+        if (x >= 0) {
+            String s = x + "";
+            int bit = s.length();
+            if (bit == 1) {
+                return true;
+            }
+            int t = bit;
+            for (int i = 0; i < bit/2; i++) {
+                int yu = x % 10;
+                double d = Math.pow(10,t-1);
+                int h =  x / (int)d;
+                if (yu != h) {
+                    b = false;
+                }
+                x = x / 10;
+                x = x - (int)d/10*h;
+                t = t - 2;
+            }
+        } else {
+            b = false;
+        }
+        return b;
     }
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
