@@ -19,7 +19,7 @@ public class MyTest {
 //        addTwoNumbers(l1, l2);
         String[] s = {"flower","flow","flight"};
 
-        System.out.println(longestCommonPrefix(s));
+        System.out.println(letterCombinations("22"));
     }
 
     /*
@@ -34,13 +34,22 @@ public class MyTest {
         String[] numString = {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
         int[] ints = new int[digits.length()];
         for(int i=0; i<digits.length(); i++) {
-            ints[i] = digits.charAt(i);
+            ints[i] = Character.getNumericValue(digits.charAt(i));
         }
-        for (int i = 0; i < ints.length; i++) {
+        for (int i = 0; i < ints.length-1; i++) {
             String s = numString[ints[i]];
+            for (int j = 0; j < s.length(); j++) {
+                char sub = s.charAt(j);
+                String f = numString[ints[i+1]];
+                for (int k = 0; k < ints.length-1; k++) {
+                    for (int l = 0; l < f.length(); l++) {
+                        char ss = f.charAt(l);
+                        String r = String.valueOf(sub) + String.valueOf(ss) + "";
+                        result.add(r);
+                    }
+                }
+            }
         }
-
-
         return result;
     }
 
