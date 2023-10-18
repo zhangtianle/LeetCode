@@ -1,4 +1,3 @@
-package leetcode2;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -19,8 +18,28 @@ public class MyTest {
 //        addTwoNumbers(l1, l2);
         String[] s = {"flower","flow","flight"};
 
-        System.out.println(letterCombinations("22"));
+        System.out.println(strStr("sadbb","sad"));
     }
+
+    public int strStr(String haystack, String needle) {
+        for (int i = 0; i < haystack.length(); i++) {
+            int t = i;
+
+            for (int j = 0; j < needle.length(); j++) {
+                
+                if (t < haystack.length() && haystack.charAt(t) == needle.charAt(j)) {
+                    if (t-i == needle.length()-1 ) {
+                        return i;
+                    }
+                    t++;
+                } else {
+                    continue;
+                }
+            }
+        }
+        return -1;
+    }
+
 
     /*
     * @lc app=leetcode.cn id=17 lang=java
