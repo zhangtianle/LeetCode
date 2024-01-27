@@ -23,19 +23,24 @@ class Solution {
         if (list2 == null) {
             return list1;
         }
-        ListNode head = list1;
-        ListNode cur = list1;
-        ListNode cur2 = list2;
-        while (cur != null && cur.next != null) {
-            while (cur2 != null && cur.val >= cur2.val) {
-                ListNode tmp = cur.next;
-                ListNode add = new ListNode(cur2.val, tmp);
-                cur.next = add;
-                cur2 = cur2.next;
+        ListNode pre = new ListNode(-1);
+        ListNode cur = pre;
+        while (list1 != null && list2 != null) {
+            if (list1.val < list2.val) {
+                cur.next = list1;
+                list1 = list1.next;
+            } else if (list1.val >= list2.val) {
+                cur.next = list2;
+                list2 = list2.next;
             }
             cur = cur.next;
         }
-        return head;
+        if (list1 != null) {
+            cur.next = list1;
+        } else {
+            cur.next = list2;
+        }
+        return pre.next;
     }
 }
 // @lc code=end
