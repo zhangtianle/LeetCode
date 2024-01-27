@@ -17,6 +17,11 @@ public class MyTest {
         System.out.println(Integer.MIN_VALUE);
     }
 
+    public String longestCommonPrefix(String[] strs) {
+
+        return null;
+    }
+
     public int reverse(int x) {
         boolean b = false;
         if(x < 0) {
