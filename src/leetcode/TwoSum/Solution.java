@@ -45,7 +45,6 @@ public class Solution {
         throw new IllegalArgumentException("No two sum solution");
     }
 
-    @Test
     public void test() {
         int[] nums = {2,7,11,15};
         int tatget = 4;

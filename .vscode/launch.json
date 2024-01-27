@@ -1,0 +1,406 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "leetcode2.Test",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Ali",
+            "request": "launch",
+            "mainClass": "OnlineTest.Ali",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "BeiKe",
+            "request": "launch",
+            "mainClass": "OnlineTest.BeiKe",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Didi",
+            "request": "launch",
+            "mainClass": "OnlineTest.Didi",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Huawei",
+            "request": "launch",
+            "mainClass": "OnlineTest.Huawei",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Huawei2",
+            "request": "launch",
+            "mainClass": "OnlineTest.Huawei2",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Huawei3",
+            "request": "launch",
+            "mainClass": "OnlineTest.Huawei3",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Huawei4",
+            "request": "launch",
+            "mainClass": "OnlineTest.Huawei4",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "JD",
+            "request": "launch",
+            "mainClass": "OnlineTest.JD",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "JD2",
+            "request": "launch",
+            "mainClass": "OnlineTest.JD2",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Lagrange",
+            "request": "launch",
+            "mainClass": "OnlineTest.Lagrange",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Lulu",
+            "request": "launch",
+            "mainClass": "OnlineTest.Lulu",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Lulu2",
+            "request": "launch",
+            "mainClass": "OnlineTest.Lulu2",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "OnlineTest.Main",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Main2",
+            "request": "launch",
+            "mainClass": "OnlineTest.Main2",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Main3",
+            "request": "launch",
+            "mainClass": "OnlineTest.Main3",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Main4",
+            "request": "launch",
+            "mainClass": "OnlineTest.Main4",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Meituan",
+            "request": "launch",
+            "mainClass": "OnlineTest.Meituan",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Meituan2",
+            "request": "launch",
+            "mainClass": "OnlineTest.Meituan2",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "NetEase",
+            "request": "launch",
+            "mainClass": "OnlineTest.NetEase",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "NetEase2",
+            "request": "launch",
+            "mainClass": "OnlineTest.NetEase2",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "NetEase3",
+            "request": "launch",
+            "mainClass": "OnlineTest.NetEase3",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "NetEase4",
+            "request": "launch",
+            "mainClass": "OnlineTest.NetEase4",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "NetEase6",
+            "request": "launch",
+            "mainClass": "OnlineTest.NetEase6",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "PDD",
+            "request": "launch",
+            "mainClass": "OnlineTest.PDD",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "PDD2",
+            "request": "launch",
+            "mainClass": "OnlineTest.PDD2",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "PDD3",
+            "request": "launch",
+            "mainClass": "OnlineTest.PDD3",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Pingduoduo",
+            "request": "launch",
+            "mainClass": "OnlineTest.Pingduoduo",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Pingduoduo2",
+            "request": "launch",
+            "mainClass": "OnlineTest.Pingduoduo2",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Pingduoduo3",
+            "request": "launch",
+            "mainClass": "OnlineTest.Pingduoduo3",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Pingduoduo4",
+            "request": "launch",
+            "mainClass": "OnlineTest.Pingduoduo4",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "QQ1",
+            "request": "launch",
+            "mainClass": "OnlineTest.QQ1",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "QQ2",
+            "request": "launch",
+            "mainClass": "OnlineTest.QQ2",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "QQ3",
+            "request": "launch",
+            "mainClass": "OnlineTest.QQ3",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Qinya",
+            "request": "launch",
+            "mainClass": "OnlineTest.Qinya",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Qinya2",
+            "request": "launch",
+            "mainClass": "OnlineTest.Qinya2",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Qinya3",
+            "request": "launch",
+            "mainClass": "OnlineTest.Qinya3",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "OnlineTest.Test",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Test2",
+            "request": "launch",
+            "mainClass": "OnlineTest.Test2",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Test3",
+            "request": "launch",
+            "mainClass": "OnlineTest.Test3",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "AugTest",
+            "request": "launch",
+            "mainClass": "huawei.AugTest",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "CoordinateCalculation",
+            "request": "launch",
+            "mainClass": "huawei.CoordinateCalculation",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "CurPeople",
+            "request": "launch",
+            "mainClass": "huawei.CurPeople",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "MergeTable",
+            "request": "launch",
+            "mainClass": "huawei.MergeTable",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "huawei.Solution",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "ddd",
+            "request": "launch",
+            "mainClass": "huawei.ddd",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "distinctString",
+            "request": "launch",
+            "mainClass": "huawei.distinctString",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "NotInitialization",
+            "request": "launch",
+            "mainClass": "jvm.NotInitialization",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Main(1)",
+            "request": "launch",
+            "mainClass": "leetcode.Main",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Main(2)",
+            "request": "launch",
+            "mainClass": "nowcoder.Main",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "NOTwo",
+            "request": "launch",
+            "mainClass": "nowcoder.NOTwo",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Netease",
+            "request": "launch",
+            "mainClass": "nowcoder.Netease",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Test(1)",
+            "request": "launch",
+            "mainClass": "nowcoder.Test",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "TreasureMap",
+            "request": "launch",
+            "mainClass": "nowcoder.TreasureMap",
+            "projectName": "LeetCode_6f18cc72"
+        },
+        {
+            "type": "java",
+            "name": "Solution(1)",
+            "request": "launch",
+            "mainClass": "zte.Solution",
+            "projectName": "LeetCode_6f18cc72"
+        }
+    ]
+}
