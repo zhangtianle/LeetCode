@@ -15,7 +15,36 @@ public class Test {
         //     minr = Math.min(a[i][1], minr);
         // }
         // System.out.println(Math.min(maxl-minl, maxr-minr));
-        System.out.println(longestValidParentheses("(()"));
+        System.out.println(longestPalindrome("abb"));
+    }
+
+
+    public static String longestPalindrome(String s) {
+        int length = s.length();
+        while(length > 0) {
+            for(int i=0; i<s.length()-length+1; i++) {
+                String subString = s.substring(i, i + length);
+                if(isHuiwen(subString)) {
+                    return subString;
+                }
+            }
+            length--;
+        }
+        return "";
+    }
+
+    private static boolean isHuiwen(String s) {
+        int i = 0;
+        int j = s.length()-1;
+        while(i<j) {
+            if(s.charAt(i)==s.charAt(j)) {
+                i++;
+                j--;
+            } else {
+                return false;
+            }
+        }
+        return true;
     }
 
         public static int longestValidParentheses(String s) {

@@ -131,6 +131,11 @@ public class MyTest {
         System.out.println(wordsSeq);
     }
 
+    public String longestCommonPrefix(String[] strs) {
+
+        return null;
+    }
+
     public int reverse(int x) {
         boolean b = false;
         if(x < 0) {
