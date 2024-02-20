@@ -9,10 +9,10 @@ class Solution {
     public int searchInsert(int[] nums, int target) {
         int l = 0;
         int r = nums.length;
-        int m = (l + r) / 2;
-        while (r - l > 1) {
+        while (r > l) {
+            int m = (l + r) / 2;
             if(nums[m] < target) {
-                l = m;
+                l = m + 1;
             } else if (nums[m] > target) {
                 r = m;
             } else {
